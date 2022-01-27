@@ -1014,3 +1014,6 @@ button {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+.required {
+  color: rgb(240, 73, 73);
+}

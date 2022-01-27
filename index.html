@@ -319,11 +319,138 @@
             </section>
 
             <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
-
-
+            <section class="qualification section" id="qualification">
+                <h2 class="section_title">Qualifications</h2>
+                <span class="section_subtitle">My Educational Qualification & Work Experience</span>
+                <div class="qualification_container container">
+                    <div class="qualification_tabs">
+                        <div class="qualification_button button-flex" id="educationheader">
+                            <i class="uil uil-graduation-cap qualification_icon"></i>
+                            Education
+                        </div>
+                        <div class="qualification_button button-flex" id="workheader">
+                            <i class="uil uil-briefcase-alt qualification_icon"></i>
+                            Work
+                        </div>
+                    </div>
+                    <div class="qualification_sections">
+                        <!-- Educational Qualification -->
+                        <div class="qualification_content qualification_active" data-content id="education">
+                            <!-- BTech CSE -->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">
+                                        BTech Computer Science & Engineering
+                                    </h3>
+                                    <span class="qualification_subtitle">
+                                        BPUT Rourkela, Odisha
+                                    </span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2014 - 2018
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_circle"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+                            <!-- School 11-12 -->
+                            <div class="qualification_data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification_circle"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification_title">
+                                        Senior Secondary School
+                                    </h3>
+                                    <span class="qualification_subtitle">
+                                        Gossner College, Ranchi
+                                    </span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2012 - 2014
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- School 7-10 -->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Secondary School</h3>
+                                    <span class="qualification_subtitle">
+                                        St. Patrick's High School, Gumla
+                                    </span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2008 - 2012
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_circle"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Work Experience -->
+                        <div class="qualification_content qualification-inactive" data-content id="work">
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">
+                                        Software Engineer
+                                    </h3>
+                                    <span class="qualification_subtitle">
+                                        TWF
+                                    </span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        June 2018 - Present
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_circle"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+                            <div class="qualification_data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification_circle"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification_title">
+                                        Campus Ambassador
+                                    </h3>
+                                    <span class="qualification_subtitle">
+                                        Learnvern
+                                    </span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        April 2017 - April 2017
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">
+                                        Internshala Student Partner 7.0
+                                    </h3>
+                                    <span class="qualification_subtitle">
+                                        Internshala
+                                    </span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        March 2017 - September 2017
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification_circle"></span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
             </section>
-
             <!--==================== SERVICES ====================-->
             <section class="services section" id="services">
                 
@@ -393,24 +520,36 @@
                             </div>
                         </a>
                     </div>
-                    <form action="https://formspree.io/f/sasas" class="contact_form grid" id="contact-form" method="POST">
+                    <form action="https://formspree.io/f/mdobenlw" class="contact_form grid" id="contact-form" method="POST">
                         <div id="alert" class="alert_style"></div>
                         <div class="contact_inputs grid">
                             <div class="contact_content">
-                                <label class="contact_label">Name</label>
+                                <label class="contact_label">
+                                    Name
+                                    <span class="required">*</span>
+                                </label>
                                 <input type="text" name="name" class="contact_input" id="name" required>
                             </div>
                             <div class="contact_content">
-                                <label for="email" class="contact_label">Email</label>
+                                <label for="email" class="contact_label">
+                                    Email
+                                    <span class="required">*</span>
+                                </label>
                                 <input type="email" name="email" class="contact_input" id="email" required>
                             </div>
                         </div>
                         <div class="contact_content">
-                            <label for="subject" class="contact_label">Subject</label>
+                            <label for="subject" class="contact_label">
+                                Subject
+                                <span class="required">*</span>
+                            </label>
                             <input type="text" name="subject" class="contact_input" id="subject" required>
                         </div>
                         <div class="contact_content">
-                            <label for="message" class="contact_label">Message</label>
+                            <label for="message" class="contact_label">
+                                Message
+                                <span class="required">*</span>
+                            </label>
                             <textarea name="message" id="" cols="0" rows="7" class="contact_input message" id="message"
                             required></textarea>
                         </div>
